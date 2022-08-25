@@ -1,16 +1,16 @@
 import React from "react"
-import MainContent from "./components/MainContent"
 import Navbar from "./components/Navbar"
+import MainContent from "./components/MainContent"
 import data from "./data"
 import "./style.css"
 
 
 
 export default function App(){
-    const content = data.map(thing =>{
+    const content = data.map(item =>{
         return(
             <MainContent
-            {...thing}
+                {...item}
             />
         )
     })

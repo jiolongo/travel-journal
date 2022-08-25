@@ -3,33 +3,114 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: #fff;
+    color: #000;
     font-family: 'Inter', sans-serif;
 
 }
 
 
 .navbar{
-    background: rgb(216, 64, 64);
-    height: 100px;
+   
+    
+    background: rgb(224, 90, 90);
+    height: 70px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    row-gap: 15px;
 }
 
 .navbar-brand{
-   
+    margin: 0 5px;
     font-weight: 500;
     font-size: 14.4608px;
     line-height: 18px;
     letter-spacing: -0.075em;
-    
     color: #FFFFFF;
 
    
 }
 .icon{
-    font-size: 50px;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+
+
+
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+  
+}
+
+.wrapper-details{
+    width: 400px;
+    padding: 20px;
+    
+}
+
+
+.image{
+  
+    width: 155px;
+    height: 168px;
+    border-radius: 5px;
+    
+}
+
+
+.wrapper-details-location{
+    font-size: 11px;
+    display: flex;
+}
+
+
+.location-icon{
+    color: #F55A5A;
+}
+
+.wrapper-details-country{
+    text-transform: uppercase;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    
+
+}
+
+.wrapper-details-map{
+    margin-left: 10px;
+    font-weight: 400;
+    text-decoration-line: underline;
+    color: #918E9B;
+    line-height: 12px;
+    
+}
+
+
+.wrapper-details-title{
+  
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #2B283A;
+}
+
+
+.wrapper-details-date{
+   margin: 20px 0 10px 0;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: 700;
+}
+
+.wrapper-details-description{
+    font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
 }

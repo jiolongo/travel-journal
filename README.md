@@ -1,3 +1,7 @@
+# Travel Journal
+
+## Scrimba React Course Section 2 project
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
